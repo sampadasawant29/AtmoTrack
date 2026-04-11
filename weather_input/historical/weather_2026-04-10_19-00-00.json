@@ -1,0 +1,16 @@
+{
+  "time": "2026-04-10T19:00:00",
+  "temp": 33.2,
+  "humidity": 19.02,
+  "windspeed": 4.3,
+  "wdir": 359.2,
+  "pressure": 1010.0,
+  "cloudcover": 5.0,
+  "visibility": 24.1,
+  "conditions": "Clear",
+  "icon": "clear-night",
+  "precip": 0.0,
+  "precipprob": 0.0,
+  "uvindex": 0.0,
+  "city": "Pune"
+}
