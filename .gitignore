@@ -1,0 +1,60 @@
+# ============================
+# AtmoTrack - .gitignore
+# ============================
+
+# Weather Input Files
+*.csv
+*.json
+*.xml
+*.nc        # NetCDF weather data
+*.grib      # GRIB meteorological data
+*.grib2
+*.hdf5      # HDF5 climate datasets
+*.h5
+*.txt       # Raw weather text dumps
+*.dat       # Binary weather data files
+*.bin
+data/
+input/
+weather_data/
+raw_data/
+incoming/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config/local*
+
+# IDE & OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
